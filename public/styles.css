@@ -1,0 +1,33 @@
+
+  
+  /* Estilos para los enlaces de navegación */
+  .navbar-nav .nav-link {
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+    padding: 20px
+    
+  }
+  
+  .navbar {
+    background-color: #45c465; /* Cambiar este valor por el color que desees */
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #e8f858;
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    background-color: #1ed2b7;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #f7db68;
+  }
+  
+
+  
+  

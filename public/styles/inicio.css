@@ -1,0 +1,25 @@
+.inicio-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inicio-titulo {
+    font-size: 5em;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #FF6600;
+    margin-top: 40px;
+}
+
+.inicio-imagen-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inicio-imagen {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}

@@ -1,0 +1,29 @@
+{% extends 'base.html.twig'%}
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('styles/detail.css') }}">
+    {% endblock %}
+
+    {% block contenido %}
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>{{drawing.nombre}}</h2>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col"> 
+                        <img src="{{drawing.imagen}}"> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="col dificultad">
+                            <p>Nivel de dificultad: {{drawing.dificultad}}</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>  
+    {% endblock %}
+        

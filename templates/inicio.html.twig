@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('styles/inicio.css') }}">
+    {% endblock %}
+    
+    {% block contenido %}
+        <div class="container inicio-container">
+            <h1 class="inicio-titulo">Imprime y colorea</h1>
+            <div class="inicio-imagen-container">
+                <img src="{{ asset('images/dibujoniños.png') }}" class="inicio-imagen">
+            </div>
+        </div>
+    {% endblock %}
+    
+    
